@@ -1,0 +1,2 @@
+html, body, #root { height: 100%; margin: 0; background: #0b1020; }
+canvas { background: #0b1020; display: block; margin: 0 auto; }
