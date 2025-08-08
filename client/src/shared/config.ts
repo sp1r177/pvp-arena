@@ -1,2 +1,3 @@
-export const API_BASE = import.meta.env.VITE_API_BASE || 'http://localhost:8000'
-export const WS_URL = import.meta.env.VITE_WS_URL || 'ws://localhost:8000/ws'
+// Для GitHub Pages используем захардкоженные URL
+export const API_BASE = 'https://pvp-arena.duckdns.org:8000'
+export const WS_URL = 'wss://pvp-arena.duckdns.org:8000/ws'

@@ -9,7 +9,7 @@ class Settings(BaseSettings):
     API_HOST: str = "0.0.0.0"
     API_PORT: int = 8000
 
-    BACKEND_CORS_ORIGINS: str = "http://localhost:5173,https://vk.com"
+    BACKEND_CORS_ORIGINS: str = "http://localhost:5173,https://vk.com,https://*.github.io,https://*.githubusercontent.com,https://sp1r177.github.io"
 
     DATABASE_URL: str
 
